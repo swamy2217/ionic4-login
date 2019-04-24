@@ -1,0 +1,37 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-buton defaultHref="/login"></ion-back-buton>
+    </ion-buttons>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content >
+<ion-grid>
+    <ion-row justify-content-center>
+      <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+        <div text-center>
+          <h4>Registration Form</h4>
+        </div>
+        <div padding>
+          <ion-item>
+            <ion-input type="text" placeholder="Username"></ion-input>
+          </ion-item>
+  
+          <ion-item>
+            <ion-input type="password" placeholder="Password"></ion-input>
+          </ion-item>
+        </div>
+  
+        <div padding>
+          <ion-button size="large" expand="block">Register</ion-button>
+        </div>
+        <ion-row>
+            <div text-center>Already have an account, please <a routerLink='/login'>Login</a> here!
+            </div>
+          </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
